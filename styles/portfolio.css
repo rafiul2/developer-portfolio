@@ -76,11 +76,13 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+section {
+  margin-top: 130px;
+}
 
 /* about section styles */
 
 .about {
-  margin-top: 130px;
   border-radius: 10px;
   background: #FFF8F3;
   padding: 130px 150px;
@@ -88,10 +90,11 @@ main {
 }
 
 .section-title {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   color: var(--Dark-01, #181818);
   font-size: 35px;
   font-weight: 700;
+  text-align: center;
 }
 
 .section-description {
@@ -114,4 +117,23 @@ main {
   color: var(--Dark-02, #474747);
   font-size: 20px;
   font-weight: 700;
+}
+
+/* what i do styles */
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill-title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.skill {
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
 }
